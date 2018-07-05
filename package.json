@@ -1,0 +1,19 @@
+{
+    "name": "@mediaman/story2json",
+    "version": "0.1.0",
+    "description": "Extracts stories from Storybook into a json structure.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mediamanDE/story-to-json.git"
+    },
+    "bin": { "story2json": "index.js" },
+    "author": {
+        "name": "mediaman GmbH",
+        "email": "hallo@mediaman.de"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "fs": "^4.0.2",
+        "yargs": "^10.0.3"
+    }
+}
