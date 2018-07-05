@@ -1,17 +1,17 @@
-# story-to-json
+# storybook-to-json
 Extracts stories from [Storybook](https://storybook.js.org/) into a JSON file.
 
 *Note:* Currently working for [Angular](https://angular.io/) projects, support for other frameworks is planned.
 
 ## Getting Started
 
-Install story-to-json in a project that uses Storybook:
+Install storybook-to-json in a project that uses Storybook:
 
-    npm install @mediaman/story2json --save-dev
+    npm install @mediaman/storybook-to-json --save-dev
     
 Run with
 
-    story2json --stories [directory] --out [file]
+    storybook2json --stories [directory] --out [file]
 
 ### --stories
 
